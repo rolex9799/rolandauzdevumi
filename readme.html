@@ -10,9 +10,22 @@
 	<link rel="shortcut icon" type="image/png" href="./assets/img/cat.png">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 
 
 	<style>
+		@font-face {
+  font-family: 'Gotham';
+  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}');
+  src: 	url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
+      	url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
+	url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
+     	url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
+        font-weight: bold;
+        font-style: normal;
+}
+
+
 
 @viewport{
             zoom: 1.0;
@@ -46,6 +59,7 @@
         body a{
             font-size: 30px;
             font-weight: bold;
+			font-family: 'Gotham', sans-serif;
         }
 
 		header{
@@ -133,12 +147,13 @@ color: blue;
 
 				h1{
 					font-size: 60px;
-					font-family: Gotham;
+					font-family: 'Gotham', sans-serif;
 				}
 
 				p{
 					font-size: 15px;
 					font-family: 400;
+					font-weight: 400;
 				}
 
 			
@@ -193,7 +208,7 @@ header h1{
 }
 
 p{
-					font-weight: lighter;
+					font-weight: 400;
 				}
 
 				</style>
@@ -265,7 +280,7 @@ In the period between 1919 and 1940, the University of Latvia was the main centr
 					max-width: 99%;	
 				}
 				p{
-					font-weight: lighter;
+					font-weight: 400;
 				}
 				
 
@@ -372,7 +387,7 @@ In the period between 1919 and 1940, the University of Latvia was the main centr
 				}
 
 				p{
-					font-weight: lighter;
+					font-weight: 400;
 				}
 
 
