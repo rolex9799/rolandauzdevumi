@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        .header1{
+            grid-area: header;
+        }
+        .main1{
+            grid-area: main;
+        }
+        .sidebar1{
+            grid-area: sidebar;
+        }
+        .footer1{
+            grid-area: footer;
+        }
+        .container{
+            display: grid;
+            grid-template-areas: 
+            'header header header'
+            'main main sidebar'
+            'footer footer footer';
+            grid-gap: 10px;
+            background-color: #999;
+            padding: 10px;
+           
+        }
+
+        .header1, .main1, .sidebar1, .footer1{
+            background-color: lawngreen;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header1">Header</div>
+        <div class="main1">Main</div>
+        <div class="sidebar1">Sidebar</div>
+        <div class="footer1">Footer</div>
+    </div>
+</body>
+</html>
