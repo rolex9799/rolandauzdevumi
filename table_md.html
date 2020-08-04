@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablemd</title>
+
+    <style>
+        .parent{
+            display: grid;
+            /* grid-template-columns: 200px minmax(200px, 300px) 200px; */
+            grid-template-columns: 33% 33% 33%;
+           
+        }
+        .child{
+            border: 1px solid gray;
+            margin-right: 15px ;       
+        }
+        
+        .content{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title1{
+            font-size: 35px;
+            color: white;
+            padding: 10px;
+            background-color: black;
+            
+        }
+        .title2{
+            font-size: 35px;
+            color: white;
+            padding: 10px;
+            background-color: green;
+            
+        }
+        .title3{
+            font-size: 35px;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            background-color: black;
+            
+        }
+        .price{
+            
+            padding: 10px;
+            font-size: 25px;
+            background-color: rgb(190, 189, 189);
+        }
+        .bot{
+            padding: 10px;
+            margin: 0;
+            color: rgb(54, 54, 54);
+        }
+        .sign{
+            padding: 10px;
+            font-size: 25px;
+            background-color: rgb(190, 189, 189);
+
+        }
+        .click{
+            background-color: green;
+            margin-left: 35%;
+            margin-right: 35%;
+            padding: 5px;
+            flex: 0px;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+        
+        /* .container{
+            background-color: pink;
+            padding: 10px;
+            border: 1px solid grey;
+            text-align: center;
+
+        }
+        .row{
+            background-color: rgb(110, 224, 87);
+            padding: 10px;
+            border: 1px dashed grey;
+            display: flex;
+
+
+
+        }
+        .column{
+            background-color: orangered;
+            padding: 10px;
+            border: 1px dashed grey;
+            
+        }
+        .content{
+            background-color: orchid;
+            padding: 10px;
+            border: 1px dashed grey;
+        } */
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="parent">
+                <div class="child">
+                    <div class="content">
+                        
+                        <div class="title1">Basic</div>
+                        
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        <div class="title2">Pro</div>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        <div class="title3">Premium</div>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        <div class="price">$ 9.99 / year</div>
+                        
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        
+                        <div class="price">$ 24.99 / year</div>
+
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        <div class="price">$ 49.99 / year</div>
+                    </div>
+                </div>
+                <div class="child">
+
+                    <div class="content"><div class="bot">10GB Storage</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">25GB Storage</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">50GB Storage</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">10 Emails</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">25 Emails</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">50 Emails</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">10 Domains</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">25 Domains</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">50 Domains</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">1GB Bandwidth</div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="bot">2GB Bandwidth</div></div>
+                </div>
+                <div class="child">
+                    <div class="content">
+                        <div class="bot">5GB Bandwidth</div>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="sign">
+                        <div class="click">Sign up</div>
+                    </div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="sign">
+                        <div class="click">Sign up</div>
+                    </div></div>
+                </div>
+                <div class="child">
+                    <div class="content"><div class="sign">
+                        <div class="click">Sign up</div>
+                    </div></div>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+
+    <!-- <main>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="column">
+
+                    <div class="content">
+
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="content">
+
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="content">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </main> -->
+</body>
+</html>
